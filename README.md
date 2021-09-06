@@ -22,7 +22,7 @@ Vary: Accept
 
 ### Request
 
-GET /movieapi/<\id\>/
+GET /movieapi/id/
 -->id is the particlar movie id
 
 ### Response
@@ -35,7 +35,7 @@ Vary: Accept
 
 # Get a non-existent movie
 
-GET /movieapi/<id>/
+GET /movieapi/id/
 
 -->id is non existent movie id
 
@@ -61,7 +61,7 @@ Vary: Accept
 # Change a movie's state (all fields are to be specified)
 
 ### Request
-PUT /movieapi/<id>/
+PUT /movieapi/id/
 
 
 ### Response
@@ -73,7 +73,7 @@ Vary: Accept
 # Change a movie's state (atleast one field to be specified)
 
 ### Request
-PATCH /movieapi/<\id\>/
+PATCH /movieapi/id/
 
 ### Response
 
@@ -85,7 +85,7 @@ Vary: Accept
 # Delete a movie
 
 ### Request
-DELETE /movieapi/<id>/
+DELETE /movieapi/id/
 
 ### Response
 HTTP 204 No Content
