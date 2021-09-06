@@ -22,7 +22,7 @@ Vary: Accept
 
 ### Request
 
-GET /movieapi/<id>/
+GET /movieapi/<\id\>/
 -->id is the particlar movie id
 
 ### Response
@@ -73,7 +73,7 @@ Vary: Accept
 # Change a movie's state (atleast one field to be specified)
 
 ### Request
-PATCH /movieapi/<id>/
+PATCH /movieapi/<\id\>/
 
 ### Response
 
