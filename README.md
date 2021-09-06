@@ -1,6 +1,6 @@
 # MovieAPI
 
-## REST API for a Movie Model
+# REST API for a Movie Model
 
 Docker image is movieapi_web
 
