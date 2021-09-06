@@ -1,31 +1,31 @@
 # MovieAPI
 
-##REST API for a Movie Model
+## REST API for a Movie Model
 
 Docker image is movieapi_web
 
-#Get list of all movies
+# Get list of all movies
 
 Populated the movies list using faker module with the file name fakedata.py
 
-###Request
+### Request
 GET /movieapi/
 
-###Response
+### Response
 
 HTTP 200 OK
 Allow: GET, POST, HEAD, OPTIONS
 Content-Type: application/json
 Vary: Accept
 
-#Get a particluar movie
+# Get a particluar movie
 
-###Request
+### Request
 
 GET /movieapi/<id>/
 -->id is the particlar movie id
 
-###Response
+### Response
 
 
 HTTP 200 OK
@@ -33,7 +33,7 @@ Allow: GET, PUT, PATCH, DELETE, HEAD, OPTIONS
 Content-Type: application/json
 Vary: Accept
 
-#Get a non-existent movie
+# Get a non-existent movie
 
 GET /movieapi/<id>/
 
@@ -44,13 +44,13 @@ Allow: GET, PUT, PATCH, DELETE, HEAD, OPTIONS
 Content-Type: application/json
 Vary: Accept
 
-#Create a movie
+# Create a movie
 
-###Request
+### Request
 
 POST /movieapi/
 
-###Response
+### Response
 
 HTTP 201 Created
 Allow: GET, POST, HEAD, OPTIONS
@@ -58,36 +58,36 @@ Content-Type: application/json
 Vary: Accept
 
 
-#Change a movie's state (all fields are to be specified)
+# Change a movie's state (all fields are to be specified)
 
-###Request
+### Request
 PUT /movieapi/<id>/
 
 
-###Response
+### Response
 HTTP 200 OK
 Allow: GET, PUT, PATCH, DELETE, HEAD, OPTIONS
 Content-Type: application/json
 Vary: Accept
 
-#Change a movie's state (atleast one field to be specified)
+# Change a movie's state (atleast one field to be specified)
 
-###Request
+### Request
 PATCH /movieapi/<id>/
 
-###Response
+### Response
 
 HTTP 200 OK
 Allow: GET, PUT, PATCH, DELETE, HEAD, OPTIONS
 Content-Type: application/json
 Vary: Accept
 
-#Delete a movie
+# Delete a movie
 
-###Request
+### Request
 DELETE /movieapi/<id>/
 
-###Response
+### Response
 HTTP 204 No Content
 Allow: GET, PUT, PATCH, DELETE, HEAD, OPTIONS
 Content-Type: application/json
