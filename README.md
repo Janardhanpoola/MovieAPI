@@ -3,6 +3,7 @@
 # REST API for a Movie Model
 
 Docker image is movieapi_web
+unit tests for this api are in the app's tests.py file
 
 # Get list of all movies
 
