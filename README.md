@@ -2,7 +2,26 @@
 
 # REST API for a Movie Model
 
-Docker image is movieapi_web
+Steps to reproduce the application locally:
+
+git clone https://github.com/Janardhanpoola/MovieAPI.git
+
+pull the docker image using the command 
+   - docker pull 1421333/movieapi_web:latest
+
+to spin the container use:
+   - docker-compose up
+
+use port 8000 to access the api-endpoints:
+
+   - http://localhost:8000/movieapi/
+
+docker start <container_id> to start the container
+docker stop <container_id> to stop the container
+
+  docker ps  -> list the containers.
+  docker images -> list the images
+
 unit tests for this api are in the app's tests.py file
 
 # Get list of all movies
