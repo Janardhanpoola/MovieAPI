@@ -19,8 +19,12 @@ use port 8000 to access the api-endpoints:
 docker start <container_id> to start the container
 docker stop <container_id> to stop the container
 
-  docker ps  -> list the containers.
-  docker images -> list the images
+ - docker ps  -> list the containers.
+ - docker images -> list the images
+
+To check the application files use:
+   - docker exec -it movieapi_web_1 /bin/sh
+      - This opens interactive terminal. For instance, ls will list all the application files.
 
 unit tests for this api are in the app's tests.py file
 
